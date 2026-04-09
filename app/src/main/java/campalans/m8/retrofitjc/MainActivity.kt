@@ -118,7 +118,7 @@ class MainActivity : ComponentActivity() {
                     Toast.makeText(this@MainActivity, "Usuario $id actualizado", Toast.LENGTH_SHORT).show()
                 }
             } catch (e: Exception) {
-                Log.e("API_ERROR", "Error al actualizar: ${e.message}")
+                Log.e("API_ERROR", "Error al actualizar: ${e.message}") //error
             }
         }
     }
